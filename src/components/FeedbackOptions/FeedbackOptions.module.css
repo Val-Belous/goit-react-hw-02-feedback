@@ -1,0 +1,18 @@
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 10px;
+}
+
+.btn {
+  color: grey;
+  font-size: 20px;
+  margin-top: 10px;
+  min-width: 100px;
+  padding: 5px;
+  background-color: gold;
+  border: none;
+  border-radius: 5px;
+}
