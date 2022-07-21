@@ -13,6 +13,15 @@
   min-width: 100px;
   padding: 5px;
   background-color: gold;
-  border: none;
+  border: 1px solid grey;
   border-radius: 5px;
+}
+
+.btn:hover,
+.btn:focus {
+  color: gold;
+
+  background-color: grey;
+
+  border: 1px solid gold;
 }
