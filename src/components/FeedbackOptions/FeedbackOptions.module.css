@@ -7,21 +7,21 @@
 }
 
 .btn {
-  color: grey;
+  color: var(--main-color);
   font-size: 20px;
   margin-top: 10px;
   min-width: 100px;
   padding: 5px;
-  background-color: gold;
-  border: 1px solid grey;
+  background-color: var(--second-color);
+  border: 1px solid var(--main-color);
   border-radius: 5px;
 }
 
 .btn:hover,
 .btn:focus {
-  color: gold;
+  color: var(--second-color);
 
-  background-color: grey;
+  background-color: var(--main-color);
 
-  border: 1px solid gold;
+  border: 1px solid var(--second-color);
 }
